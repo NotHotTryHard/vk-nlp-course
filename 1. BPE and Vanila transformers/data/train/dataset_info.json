@@ -1,0 +1,38 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "russian_jokes",
+  "dataset_size": 42454341,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/IgorVolochay/russian_jokes@df1d9100b15b470ef20bc1bf53ae014a3776aa4e/dataset.csv": {
+      "num_bytes": 42450463,
+      "checksum": null
+    }
+  },
+  "download_size": 42450463,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 84904804,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 42454341,
+      "num_examples": 150553,
+      "dataset_name": "russian_jokes"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
